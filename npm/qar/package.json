@@ -3,7 +3,10 @@
   "license": "Apache-2.0",
   "private": false,
   "repository": "git://github.com/aspect-build/test-packages.git",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
-  "bin": { "qar": "bin.js" }
+  "bin": { "qar": "bin.js" },
+  "scripts": {
+    "postinstall": "echo \"{\\\"random\\\":\\\"42\\\"}\" > data.json"
+  }
 }
