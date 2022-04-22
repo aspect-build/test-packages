@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@aspect-test/bar": "file:./bar",
-    "@aspect-test/foo": "file:./foo",
-    "@aspect-test/qar": "file:./qar"
+    "@aspect-test/a": "file:./a",
+    "@aspect-test/b": "file:./b",
+    "@aspect-test/c": "file:./c"
   }
 }

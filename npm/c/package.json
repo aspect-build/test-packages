@@ -1,12 +1,12 @@
 {
-  "name": "@aspect-test/qar",
+  "name": "@aspect-test/c",
   "license": "Apache-2.0",
   "private": false,
   "repository": "git://github.com/aspect-build/test-packages.git",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "main": "index.js",
-  "bin": { "qar": "bin.js" },
+  "bin": { "bin_c": "bin.js" },
   "scripts": {
-    "postinstall": "echo \"{\\\"random\\\":\\\"42\\\"}\" > data.json"
+    "postinstall": "echo \"{\\\"answer\\\":\\\"42\\\"}\" > data.json"
   }
 }

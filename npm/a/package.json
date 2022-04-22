@@ -1,12 +1,13 @@
 {
-  "name": "@aspect-test/foo",
+  "name": "@aspect-test/a",
   "license": "Apache-2.0",
   "private": false,
   "repository": "git://github.com/aspect-build/test-packages.git",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "main": "index.js",
-  "bin": { "foo": "bin.js" },
+  "bin": { "bin_a": "bin.js" },
   "dependencies": {
-    "@aspect-test/qar": "2.0.0"
+    "@aspect-test/b": "1.0.0",
+    "@aspect-test/c": "1.0.0"
   }
 }
