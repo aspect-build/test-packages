@@ -2,6 +2,7 @@
   "dependencies": {
     "@aspect-test/a": "file:./a",
     "@aspect-test/b": "file:./b",
-    "@aspect-test/c": "file:./c"
+    "@aspect-test/c": "file:./c",
+    "@aspect-test/d": "file:./d"
   }
 }
