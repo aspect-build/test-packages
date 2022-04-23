@@ -1,8 +1,10 @@
 const packageJson = require('./package.json')
-const packageJsonA = require('@aspect-test/a/package.json')
-const packageJsonC = require('@aspect-test/c/package.json')
+const a = require('@aspect-test/a')
+const c = require('@aspect-test/c')
+const d = require('@aspect-test/d')
 module.exports = {
   id: () => `${packageJson.name}@${packageJson.version}`,
-  idA: () => `${packageJsonA.name}@${packageJsonA.version}`,
-  idC: () => `${packageJsonC.name}@${packageJsonC.version}`
+  idA: () => a.id(),
+  idC: () => c.id(),
+  idD: () => d.id(),
 }
