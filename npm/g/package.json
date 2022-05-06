@@ -1,0 +1,9 @@
+{
+  "name": "@aspect-test/g",
+  "license": "Apache-2.0",
+  "private": false,
+  "repository": "git://github.com/aspect-build/test-packages.git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": { "bin_d": "bin.js" }
+}
