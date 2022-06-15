@@ -3,12 +3,12 @@
   "license": "Apache-2.0",
   "private": false,
   "repository": "git://github.com/aspect-build/test-packages.git",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "main": "index.js",
   "bin": { "bin_a": "bin.js" },
   "dependencies": {
-    "@aspect-test/b": "5.0.1",
-    "@aspect-test/c": "2.0.1",
+    "@aspect-test/b": "5.0.2",
+    "@aspect-test/c": "2.0.2",
     "@aspect-test/d": "2.0.0"
   }
 }
