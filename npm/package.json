@@ -1,13 +1,5 @@
 {
-  "dependencies": {
-    "@aspect-test/a": "file:./a",
-    "@aspect-test/b": "file:./b",
-    "@aspect-test/c": "file:./c",
-    "@aspect-test/d": "file:./d",
-    "@aspect-test/e": "file:./e",
-    "@aspect-test/f": "file:./f",
-    "@aspect-test/g": "file:./g",
-    "@aspect-test/h": "file:./h",
-    "@aspect-test/i": "file:./i"
+  "devDependencies": {
+    "can-npm-publish": "1.3.6"
   }
 }

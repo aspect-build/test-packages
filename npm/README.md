@@ -1,7 +1,7 @@
-Test npm packages under the npm scope `@aspect-test`.
+Test npm packages under the npm scopes:
 
-To publish a package:
+1) Public packages under `@aspect-test`
+2) Private packages under `@aspect-priv-npm`
 
-1) login to npm with `npm login`
-2) cd into the directory of the package to publish
-3) publish with `npm publish --access public`
+To publish all packages run `npm/publish_all_to_npm.sh`. This script will
+only publish packages that are not already published.
